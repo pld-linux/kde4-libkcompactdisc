@@ -4,11 +4,11 @@
 
 Summary:	K Desktop Environment - multimedia applications
 Summary(pl.UTF-8):	K Desktop Environment - aplikacje multimedialne
-Name:		kde4-libkcompactdisc
+Name:		kde4-%{orgname}
 Version:	4.9.0
 Release:	0.1
 License:	GPL v2+
-Group:		X11/Applications
+Group:		X11/Libraries
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
 # Source0-md5:	89f68901d359467e6972f16c27b01420
 BuildRequires:	Qt3Support-devel >= %{qtver}
