@@ -5,7 +5,7 @@
 Summary:	K Desktop Environment - compact disc library
 Name:		kde4-%{orgname}
 Version:	4.9.0
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		X11/Libraries
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
@@ -68,6 +68,7 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %{_includedir}/libkcompactdisc
 %attr(755,root,root) %{_libdir}/libkcompactdisc.so
+%dir %{_libdir}/cmake/libkcompactdisc
 %{_libdir}/cmake/libkcompactdisc/LibkcompactdiscConfig.cmake
 %{_libdir}/cmake/libkcompactdisc/LibkcompactdiscTargets-pld.cmake
 %{_libdir}/cmake/libkcompactdisc/LibkcompactdiscTargets.cmake
