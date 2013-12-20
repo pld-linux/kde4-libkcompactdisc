@@ -4,12 +4,12 @@
 
 Summary:	K Desktop Environment - compact disc library
 Name:		kde4-%{orgname}
-Version:	4.11.4
+Version:	4.12.0
 Release:	1
 License:	GPL v2+
 Group:		X11/Libraries
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
-# Source0-md5:	1f8528c337bc391885a522bbcc14adcf
+# Source0-md5:	15ae2e859c5843cea5833b796def06f5
 BuildRequires:	alsa-lib-devel
 BuildRequires:	cmake >= 2.8.0
 BuildRequires:	kde4-kdelibs-devel >= %{version}
